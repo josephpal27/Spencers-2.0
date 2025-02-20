@@ -290,3 +290,153 @@ form span a{
   }
 }
 /* Verify OTP Head End */
+
+
+/* ------- Unlock Rewards Page Styles ------- */
+/* Unlock Rewards Head Start */
+.unlock-rewards-head{
+  text-align: center;
+}
+.unlock-rewards-head h1{
+  font-family: "Poppins", serif;
+  font-size: calc(1.4rem + 1vw);
+  margin-top: 1.5rem;
+}
+.unlock-rewards-head h2{
+  font-family: "DM Sans", serif;
+  font-size: calc(0.7rem + 1vw);
+  margin-top: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .unlock-rewards-head{
+    padding: 0 3rem;
+  }
+  .unlock-rewards-head h1{
+    font-size: calc(1.5rem + 1vw);
+  }
+  .unlock-rewards-head h2{
+    font-size: calc(0.9rem + 1vw);
+    font-weight: 550;
+  }
+}
+
+@media screen and (min-width: 405px) and (max-width: 450px) {
+  .unlock-rewards-head{
+    padding: 0 3.5rem;
+  }
+  .unlock-rewards-head h1{
+    font-size: calc(1.7rem + 1vw);
+  }
+  .unlock-rewards-head h2{
+    font-size: calc(1rem + 1vw);
+  }
+}
+/* Unlock Rewards Head End */
+
+/* Rewards Card Row Start */
+.rewards-card-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+.rewards-card-row .reward-card{
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+}
+.rewards-card-row .reward-card .card-left{
+  width: 18.5%;
+  text-align: center;
+}
+.rewards-card-row .reward-card .card-right{
+  width: 81%;
+}
+.rewards-card-row .reward-card svg{
+  width: 65%;
+}
+.rewards-card-row #reward-card-1 svg{
+  margin-left: -7px;
+}
+.rewards-card-row .reward-card h3{
+  font-family: "Poppins", serif;
+  font-size: calc(0.4rem + 1vw);
+  margin: 0;
+  font-weight: 600;
+}
+.rewards-card-row .reward-card p{
+  font-family: "DM Sans", serif;
+  font-size: calc(0.1rem + 1vw);
+  margin: 0;
+  margin-top: 0.3rem;
+}
+
+.reward-progress-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.reward-progress-button button{
+  border: none;
+  background-color: #ee7f1b;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-size: calc(0.3rem + 1vw);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.reward-progress-button button:hover{
+  background-color: #e8710a;
+}
+
+@media screen and (min-width: 1400px) {
+  .rewards-card-row .reward-card p{
+    font-size: calc(0.07rem + 1vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rewards-card-row{
+    margin-top: 2.5rem;
+  }
+  .rewards-card-row .reward-card{
+    width: 100%;
+    box-shadow: none;
+    padding: 1rem 0.6rem;
+  }
+  .rewards-card-row .reward-card .card-left{
+    width: 20%;
+  }
+  .rewards-card-row .reward-card .card-right{
+    width: 77%;
+  }
+  .rewards-card-row #reward-card-1 svg{
+    margin-left: -1px;
+    width: 70%;
+  }
+  .rewards-card-row .reward-card h3{
+    font-size: calc(1rem + 1vw);
+  }
+  .rewards-card-row .reward-card p{
+    font-size: calc(0.55rem + 1vw);
+    margin-top: 0.3rem;
+    font-weight: 490;
+    line-height: 1.25;
+  }
+  .reward-progress-button{
+    margin-top: 1.5rem;
+  }
+  .reward-progress-button button{
+    padding: 0.5rem 1.5rem;
+    font-size: calc(0.75rem + 1vw);
+  }
+}
+/* Rewards Card Row End */
