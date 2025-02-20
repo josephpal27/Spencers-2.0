@@ -185,8 +185,8 @@ form span a{
   }
   form button{
     margin-top: 1rem;
-    padding: 0.4rem 1.5rem;
-    font-size: calc(0.7rem + 1vw);
+    padding: 0.45rem 1.7rem;
+    font-size: calc(0.75rem + 1vw);
     border-radius: 10px;
   }
   form span{
@@ -195,3 +195,98 @@ form span a{
   }
 }
 /* Form End */
+
+
+/* ------- Verify OTP Page Styles ------- */
+/* Verify OTP Head Start */
+.verify-otp-head{
+  margin-top: 2rem;
+  text-align: center;
+}
+.verify-otp-head h1{
+  font-family: "Poppins", serif;
+  font-size: calc(0.9rem + 1vw);
+  margin-top: 1.5rem;
+  font-weight: 600;
+}
+.otp-form form {
+  width: 30%;
+  padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  margin-top: 0.5rem;
+}
+.otp-form form .inp-field{
+  display: flex;
+  justify-content: space-between;
+}
+.otp-form form .inp-field input{
+  width: 22%;
+  font-size: calc(1.5rem + 0.5vw);
+  font-weight: 700;
+  padding: 0.5rem 0;
+  font-family: "Poppins", serif;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.1s ease-in-out;
+  background-color: #d9d9d9;
+}
+.otp-form form .inp-field input:focus{
+  border: 2px solid #fff;
+}
+.otp-form form .resend{
+  width: 100%;
+}
+.otp-form form .resend a{
+  font-family: "Poppins", serif;
+  display: block;
+  font-size: calc(0.4rem + 0.5vw);
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  display:flex;
+  align-items: center;
+  justify-content: end;
+}
+.otp-form form .resend a i{
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .verify-otp-head h1{
+    font-size: calc(1.2rem + 1vw);
+  }
+  .verify-otp-head svg{
+    width: 4rem;
+  }
+  .otp-form form {
+    width: 70%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-top: 0.5rem;
+  }
+  .otp-form form .inp-field input{
+    width: 21%;
+    font-size: calc(1.1rem + 0.5vw);
+    padding: 0.42rem 0;
+    border: 2px solid transparent;
+  }
+  .otp-form form .resend a{
+    font-size: calc(0.6rem + 0.5vw);
+  }
+}
+@media screen and (min-width: 390px) and (max-width: 450px) {
+  .verify-otp-head h1{
+    font-size: calc(1.4rem + 1vw);
+  }
+  .otp-form form .inp-field input{
+    padding: 0.65rem 0;
+  }
+  .otp-form form .resend a{
+    font-size: calc(0.65rem + 0.5vw);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .otp-form form .inp-field input{
+      font-size: calc(1.7rem + 0.5vw);
+      padding: 0.8rem 0;
+  }
+}
+/* Verify OTP Head End */
