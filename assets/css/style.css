@@ -68,7 +68,8 @@
         padding: 0 3.5rem;
     }
     #signup-head{
-      padding: 0 2rem;
+      padding: 0 4rem;
+      margin-top: -0.5rem;
     }
 }
 
@@ -79,10 +80,17 @@
     .login-head h2{
       margin-top: 0.8rem;
       font-size: calc(0.95rem + 1vw);
-  }
+    }
     .login-head span{
         font-size: calc(0.7rem + 1vw);
         margin-top: 0.7rem;
+    }
+    #signup-head h1{
+      font-size: calc(1.1rem + 1vw);
+    }
+    #signup-head h2{
+      font-size: calc(0.65rem + 1vw);
+      margin-top: 0.4rem;
     }
 }
 
@@ -98,6 +106,17 @@
         font-size: calc(0.75rem + 1vw);
         margin-top: 0.85rem;
         margin-top: 0.8rem;
+    }
+    #signup-head{
+      padding: 0 5rem;
+      margin-top: 0.5rem;
+    }
+    #signup-head h1{
+      font-size: calc(1.35rem + 1vw);
+    }
+    #signup-head h2{
+      font-size: calc(0.75rem + 1vw);
+      margin-top: 0.4rem;
     }
 }
 /* Login Head End */
@@ -192,6 +211,41 @@ form span a{
   form span{
     font-size: calc(0.65rem + 1vw);
     margin: 0.8rem 0 0.3rem 0;
+  }
+  #sign-up-form{
+    margin: 1rem auto;
+  }
+  #sign-up-form label{
+    font-size: calc(0.65rem + 1vw);
+  }
+  #sign-up-form input{
+    font-size: calc(0.6rem + 1vw);
+    padding: 0.42rem 1rem;
+    margin: 0.4rem 0 0.7rem 0;
+  }
+  #sign-up-form button{
+    margin-top: 0.2rem;
+    padding: 0.35em 1.5rem;
+    font-size: calc(0.7rem + 1vw);
+  }
+  #sign-up-form span{
+    font-size: calc(0.5rem + 1vw);
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0 0.5rem 0;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 460px) {
+  #sign-up-form{
+    margin: 2rem auto;
+  }
+  #sign-up-form label{
+    font-size: calc(0.75rem + 1vw);
+  }
+  #sign-up-form input{
+    font-size: calc(0.65rem + 1vw);
+    padding: 0.5rem 1rem;
+    margin: 0.4rem 0 0.9rem 0;
   }
 }
 /* Form End */
@@ -673,7 +727,7 @@ form span a{
   .gift-card button{
     margin: 1.5rem 0 3rem 0;
     padding: 0.5rem 1.5rem;
-    font-size: calc(0.7rem + 1vw);
+    font-size: calc(0.75rem + 1vw);
   }
 }
 /* Gift Card End */
