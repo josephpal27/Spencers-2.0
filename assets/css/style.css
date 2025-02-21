@@ -737,18 +737,18 @@ form span a{
 /* Shop & Earn Head Start */
 .shop-earn-head{
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 .shop-earn-head h1{
   font-family: "Poppins", serif;
-  font-size: calc(1.4rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
   margin: 0;
   font-weight: 600;
   text-transform: uppercase;
 }
 .shop-earn-head p{
   font-family: "Poppins", serif;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.55rem + 1vw);
   margin: 0;
   margin-top: 0.5rem;
 }
@@ -771,14 +771,22 @@ form span a{
 
 /* Shop & Earn Tabs Start */
 .shop-earn-tabs{
-  margin-top: 2rem;
-  padding: 0 1rem;
+  margin-top: 2.5rem;
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .shop-earn-card{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 2rem;
+  width: 45%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 .shop-earn-card .card-left{
   width: 15%;
@@ -791,11 +799,27 @@ form span a{
 }
 .shop-earn-card .card-desc h2{
   font-family: "Poppins", serif;
-  font-size: calc(0.85rem + 1vw);
+  font-size: calc(0.3rem + 1vw);
   margin: 0;
 }
-.shop-earn-card .card-right{
-  width: 5%;
+
+@media screen and (max-width: 768px) {
+  .shop-earn-tabs{
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  .shop-earn-card{
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+  .shop-earn-card .card-desc h2{
+    font-size: calc(0.85rem + 1vw);
+  }
+  .shop-earn-card .card-right{
+    width: 5%;
+  }
 }
 /* Shop & Earn Tabs End */
 
@@ -825,22 +849,39 @@ form span a{
 
 /* FAQ Boxes Start */
 .faq-boxes{
-  margin-top: 3rem;
+  margin-top: 4rem;
+  padding: 0 3rem;
 }
 .faq-boxes .faq-box{
   border-bottom: 1.8px solid #000;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 .faq-boxes .faq-box h2{
   font-family: "Poppins", serif;
-  font-size: calc(0.8rem + 1vw);
+  font-size: calc(0.5rem + 1vw);
   margin: 0;
   font-weight: 600;
 }
 .faq-boxes .faq-box p{
   font-family: "Poppins", serif;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.1rem + 1vw);
   margin: 0;
-  margin: 0.6rem 0 0.8rem 0;
+  margin: 0.7rem 0 1rem 0;
+}
+@media screen and (max-width: 768px) {
+  .faq-boxes{
+    padding: 0 0.8rem;
+    margin-top: 3rem;
+  }
+  .faq-boxes .faq-box{
+    margin-bottom: 1.2rem;
+  }
+  .faq-boxes .faq-box h2{
+    font-size: calc(0.8rem + 1vw);
+  }
+  .faq-boxes .faq-box p{
+    font-size: calc(0.6rem + 1vw);
+    margin: 0.6rem 0 0.8rem 0;
+  }
 }
 /* FAQ Boxes End */
