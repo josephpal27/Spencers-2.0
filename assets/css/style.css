@@ -422,6 +422,9 @@ form span a{
     margin-left: -1px;
     width: 70%;
   }
+  .rewards-card-row #reward-card-2{
+    margin-bottom: 0.75rem;
+  }
   .rewards-card-row .reward-card h3{
     font-size: calc(1rem + 1vw);
   }
@@ -579,3 +582,98 @@ form span a{
   }
 }
 /* Reward Journey Head End */
+
+
+/* ------- Available Rewards Page Styles ------- */
+/* Available Rewards Head Start */
+.available-rewards-head{
+  text-align: center;
+}
+.available-rewards-head h1{
+  font-family: "Poppins", serif;
+  font-size: calc(1.4rem + 1vw);
+  margin: 0;
+  font-weight: 600;
+}
+.available-rewards-head p{
+  font-family: "Poppins", serif;
+  font-size: calc(0.6rem + 1vw);
+  margin: 0;
+  margin-top: 1rem;
+}
+.available-rewards-head span{
+  font-family: "Poppins", serif;
+  font-size: calc(0.6rem + 1vw);
+  margin: 0;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .available-rewards-head h1{
+    font-size: calc(1.1rem + 1vw);
+    margin-top: 1.5rem;
+  }
+  .available-rewards-head p{
+    font-size: calc(0.7rem + 1vw);
+    margin-top: 0.8rem;
+  }
+  .available-rewards-head span{
+    font-size: calc(0.7rem + 1vw);
+    margin-top: 0;
+  }
+}
+/* Available Rewards Head End */
+
+/* Gift Card Start */
+.gift-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-card-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.gift-card-img img{
+  width: 45%;
+}
+.gift-card-desc{
+  margin-top: 2rem;
+}
+.gift-card-desc h2{
+  font-family: "Poppins", serif;
+  font-size: calc(0.9rem + 1vw);
+  margin-bottom: 1rem;
+}
+.gift-card button{
+  margin: 1.5rem 0 3rem 0;
+  border: none;
+  background-color: #ee7f1b;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-size: calc(0.3rem + 1vw);
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.gift-card button:hover{
+  background-color: #e8710a;
+}
+
+@media screen and (max-width: 768px) {
+  .gift-card-img img{
+    width: 60%;
+  }
+  .gift-card-desc h2{
+    font-size: calc(1rem + 1vw);
+  }
+  .gift-card button{
+    margin: 1.5rem 0 3rem 0;
+    padding: 0.5rem 1.5rem;
+    font-size: calc(0.7rem + 1vw);
+  }
+}
+/* Gift Card End */
