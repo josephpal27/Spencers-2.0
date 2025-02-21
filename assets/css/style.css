@@ -477,7 +477,7 @@ form span a{
     width: 70%;
   }
   .rewards-card-row #reward-card-2{
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.3rem;
   }
   .rewards-card-row .reward-card h3{
     font-size: calc(1rem + 1vw);
