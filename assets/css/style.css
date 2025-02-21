@@ -637,7 +637,7 @@ form span a{
   margin-top: 3rem;
 }
 .gift-card-img img{
-  width: 45%;
+  width: 320px
 }
 .gift-card-desc{
   margin-top: 2rem;
@@ -665,7 +665,7 @@ form span a{
 
 @media screen and (max-width: 768px) {
   .gift-card-img img{
-    width: 60%;
+    width: 62vw;
   }
   .gift-card-desc h2{
     font-size: calc(1rem + 1vw);
